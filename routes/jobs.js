@@ -11,7 +11,7 @@ const { ensureAdmin } = require("../middleware/auth");
 const Jobs = require("../models/jobs");
 
 const jobNewSchema = require("../schemas/jobsNew");
-const jobUpdateSchema = require("../schemas/jobsUpadte.json");
+const jobUpdateSchema = require("../schemas/jobsUpdate.json");
 
 const router = new express.Router();
 
